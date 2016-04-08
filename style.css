@@ -1,9 +1,12 @@
 html {
   font-family: 'Source Sans Pro', sans-serif;
+  background-color: black;
+  color: navajowhite;
 }
 
 h1, h2, h3 {
   font-family: 'Fjalla One', sans-serif;
+  color: #FFD540;
 }
 
 em {
