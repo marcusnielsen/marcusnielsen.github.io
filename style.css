@@ -6,32 +6,47 @@ body {
   box-sizing: border-box;
 }
 
-h1, h2, h3 {
-  color: #FFD540;
+h1 {
+  font-size: 32px;
+  padding-bottom: 24px;
 }
 
-h1 {
-  font-family: 'Fjalla One', sans-serif;
-  font-size: 32px;
-  border-bottom: 2px solid antiquewhite;
-  padding-bottom: 15px;
+h2::before {
+  content: '#';  
 }
 
 h2 {
-  font-family: 'Indie Flower', cursive;
   font-size: 24px;
+  padding-bottom: 16px;
 }
 
 h3 {
-  font-family: 'Indie Flower', cursive;
   font-size: 16px;
+  padding-bottom: 5px;
+}
+
+a {
+  text-transform: uppercase;
+  font-family: 'Share Tech Mono', sans-serif;
+  color: #FFD540;
+}
+
+a::before {
+  content: '<';
+}
+
+a::after {
+  content: '>';
+}
+
+a:hover {
+  color: #FFD540;
 }
 
 .menu {
-  font-family: 'Fjalla One', sans-serif;
   font-size: 32px;
   border-bottom: 2px solid #FFD540;
   border-top: 2px solid #FFD540;
-  padding: 15px 0;   
-  background-color: white;
+  padding: 15px 0;
+  text-align: center;
 }
