@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: 
-
-Sitemap: http://marcusnielsen.github.io/sitemap.xml 
