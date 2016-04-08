@@ -1,7 +1,7 @@
 body {
   font-family: 'Source Sans Pro', sans-serif;
   background-color: black;
-  color: navajowhite;
+  color: #FFD540;
   font-size: 14px;
   box-sizing: border-box;
 }
@@ -30,6 +30,8 @@ h3 {
 .menu {
   font-family: 'Fjalla One', sans-serif;
   font-size: 32px;
-  border-bottom: 2px solid antiquewhite;
-  padding-bottom: 15px;   
+  border-bottom: 2px solid #FFD540;
+  border-top: 2px solid #FFD540;
+  padding: 15px 0;   
+  background-color: white;
 }
