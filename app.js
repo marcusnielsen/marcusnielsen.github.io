@@ -17,6 +17,9 @@ function (a, b) {
 .concat(
   Rx.Observable.of('marcusnielsen_org')
   .delay(500)
+  .do(function() {
+    
+  })
 )
 .subscribe(function(data) {
   titleElm.text = data
