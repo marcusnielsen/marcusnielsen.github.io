@@ -104,6 +104,7 @@ a:hover, a:focus {
   margin: 30px 0;
   padding: 15px;
   border-bottom: 1px dashed #FFD540;
+  min-height: 500px;
 }
 
 p {
@@ -139,4 +140,32 @@ p {
 
 .profile:hover .profile-original {
   right: 0px;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.projects > li {
+    border: 2px solid #FFD540;
+    flex-grow: 1;
+    max-width: 45%;
+}
+
+.project-title {
+    text-align: center;
+    background-color: #FFD540;
+    padding: 5px;
+}
+
+.project-title > a {
+    color: black;
+}
+
+.project-body {
+    padding: 5px;
 }
