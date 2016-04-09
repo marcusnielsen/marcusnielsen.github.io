@@ -99,3 +99,34 @@ a:hover, a:focus {
 .menu ul > li {
   list-style: none;
 }
+
+.profile {
+  position: relative; 
+  height: 150px;
+  width: 150px;
+  overflow: hidden;
+}
+
+.profile > * {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+}
+
+.profile .profile-preview {
+  transition: left 0.4s;
+  left: 0px;
+}
+
+.profile .profile-original {
+  transition: right 0.4s;
+  right: 150px;
+}
+
+.profile:hover .profile-preview {
+  left: 150px;
+}
+
+.profile:hover .profile-original {
+  right: 0px;
+}
