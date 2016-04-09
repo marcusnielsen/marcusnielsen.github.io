@@ -28,14 +28,29 @@ a {
 
 a::before {
   content: '<';
+  margin: 0;
+  transition: margin 0.4s;
 }
 
 a::after {
   content: '>';
+  margin: 0;
+  transition: margin 0.4s;
 }
 
-a:hover {
+a:hover::before, a:focus::before {
+  content: '<';
+  margin-right: 15px;
+}
+
+a:hover::after, a:focus::after {
+  content: '>';
+  margin-left: 15px;
+}
+
+a:hover, a:focus {
   color: #FFD540;
+  text-decoration: none;
 }
 
 .menu {
