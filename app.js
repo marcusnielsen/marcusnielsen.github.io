@@ -15,7 +15,7 @@ function (a, b) {
   .delay(500)
 )
 .concat(
-  Rx.Observable.of('marcusnielsen_org')
+  Rx.Observable.of('marcusnielsen.org')
   .delay(500)
   .do(function() {
     
